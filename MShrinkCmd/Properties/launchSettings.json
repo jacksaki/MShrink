@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MShrinkCmd": {
+      "commandName": "Project",
+      "commandLineArgs": "-s \"C:\\Users\\yamasaki\\Videos\\2026-10-04 21-40-30.mp4\" -f -d \"C:\\Users\\yamasaki\\Videos\\2026-10-04 21-40-30_conv.mp4\" -m 20"
+    }
+  }
+}

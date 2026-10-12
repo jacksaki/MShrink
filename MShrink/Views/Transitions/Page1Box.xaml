@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="MShrink.Views.Transitions.Page1Box"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:v="clr-namespace:MShrink.Views"
+    xmlns:vm="clr-namespace:MShrink.ViewModels"
+    xmlns:wpf="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:t="clr-namespace:MShrink.Views.Transitions"
+             mc:Ignorable="d" 
+             Background="LightBlue"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="1"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" IsEnabled="False" Margin="4,4,40,4" wpf:ElevationAssist.Elevation="Dp4" Style="{StaticResource MaterialDesignFloatingActionMiniSecondaryButton}" Content="{wpf:PackIcon Kind=ArrowLeft,Size=28}"/>
+            <Button Grid.Column="2" Command="{Binding NextCommand}" Margin="40,4,4,4" wpf:ElevationAssist.Elevation="Dp4" Style="{StaticResource MaterialDesignFloatingActionMiniSecondaryButton}" Content="{wpf:PackIcon Kind=ArrowRight, Size=28}"/>
+        </Grid>
+    </Grid>
+</UserControl>

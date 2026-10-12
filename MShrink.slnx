@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MShrink.Components/MShrink.Components.csproj" />
+  <Project Path="MShrink/MShrink.csproj" Id="1c8141e6-3b29-4792-bb34-fea58c519ba0" />
+  <Project Path="MShrinkCmd/MShrinkCmd.csproj" Id="90be3b3a-aefc-4e99-ad8e-a92ecb6dc13c" />
+</Solution>

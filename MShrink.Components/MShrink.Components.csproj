@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <SupportedOSPlatformVersion>10.0.26100.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FFMpegCore" Version="5.5.0" />
+    <PackageReference Include="FFMpegCore.Extensions.Downloader" Version="5.0.0" />
+    <PackageReference Include="MediaFoundation.NetCore" Version="2024.5.10" />
+    <PackageReference Include="R3Utility.ObservableCollections" Version="0.3.1" />
+  </ItemGroup>
+
+</Project>
